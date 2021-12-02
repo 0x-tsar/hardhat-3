@@ -49,6 +49,7 @@ describe("Token contract", () => {
         await token.transfer(addr2.address, 50);
 
         const finalOwnerBalance = await token.balanceOf(owner.address);
+        expect(finalOwnerBalance).to.equal(initialOwnerBalance - 150);
       });
     });
   });
