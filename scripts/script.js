@@ -8,6 +8,8 @@ async function main() {
   console.log(`account balance ${balance.toString()}`);
 
   const Token = await ethers.getContractFactory("Token");
+  const token = await Token.deploy();
+  console.log(`token address: ${token.address}`);
 }
 
 main()
