@@ -6,6 +6,8 @@ async function main() {
 
   const balance = await deployer.getBalance();
   console.log(`account balance ${balance.toString()}`);
+
+  const Token = await ethers.getContractFactory("Token");
 }
 
 main()
