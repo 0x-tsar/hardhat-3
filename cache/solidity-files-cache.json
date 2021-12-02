@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/Volumes/APPLE HDD/reactprojects/hardhat-3/contracts/Token.sol": {
-      "lastModificationDate": 1638269548000,
-      "contentHash": "b2e1438126df90dbf819dbf6863b1bfc",
+      "lastModificationDate": 1638448408000,
+      "contentHash": "da90588cda71dcdecb6a2462591e2523",
       "sourceName": "contracts/Token.sol",
       "solcConfig": {
         "version": "0.8.7",
