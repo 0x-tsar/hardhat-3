@@ -54,8 +54,8 @@ describe("Token contract", () => {
         const addr1Balance = await token.balanceOf(addr1.address);
         expect(addr1Balance).to.equal(100);
 
-        const addr1Balance = await token.balanceOf(addr1.address);
-        expect(addr1Balance).to.equal(100);
+        const addr2Balance = await token.balanceOf(addr2.address);
+        expect(addr2Balance).to.equal(50);
       });
     });
   });
