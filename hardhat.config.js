@@ -9,7 +9,7 @@ module.exports = {
   networks: {
     mumbai: {
       accounts: [mnemonic],
-      url: url,
+      url: process.env.url,
     },
   },
 };
